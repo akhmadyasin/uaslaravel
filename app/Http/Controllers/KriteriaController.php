@@ -23,7 +23,8 @@ class KriteriaController extends Controller
         DB::table('kriteria')->insert([
             'name' => $request->name,
             'label' => $request->label,
-            'bobot' => $request->bobot
+            'bobot' => $request->bobot,
+            'flag' => $request->flag
         ]);
         return redirect('kriteria')->with('status', 'Berhasil menambahkan!');
     }

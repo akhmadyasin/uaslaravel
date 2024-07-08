@@ -41,7 +41,7 @@
                             <a class="nav-link" href="{{ url('/kriteria') }}">{{ __('Kriteria') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/Perhitungan') }}">{{ __('Perhitungan') }}</a>
+                            <a class="nav-link" href="{{ url('/wp') }}">{{ __('Perhitungan') }}</a>
                         </li>
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

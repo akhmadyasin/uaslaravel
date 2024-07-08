@@ -42,3 +42,5 @@ Route::post('kriteria', [App\Http\Controllers\KriteriaController::class, 'addPro
 Route::get('kriteria/edit/{id}', [App\Http\Controllers\KriteriaController::class, 'edit']);
 Route::patch('kriteria/{id}', [App\Http\Controllers\KriteriaController::class, 'editProcess']);
 Route::delete('kriteria/{id}', [App\Http\Controllers\KriteriaController::class, 'delete']);
+
+Route::get('wp', [App\Http\Controllers\WpController::class, 'data']);

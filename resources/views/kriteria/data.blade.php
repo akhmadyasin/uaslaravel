@@ -25,6 +25,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Label</th>
                                 <th scope="col">Bobot</th>
+                                <th scope="col">Flag</th>
                                 <th scope="col">Opsi</th>
                             </tr>
                         </thead>
@@ -35,6 +36,7 @@
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->label }}</td>
                                     <td>{{ $item->bobot }}</td>
+                                    <td>{{ $item->flag }}</td>
                                     <td class="text-center">
                                     <a href="{{ url('kriteria/edit', $item->id) }}" type="button" class="btn btn-primary btn-sm">Edit </a>
                                     <form action="{{ url('kriteria', $item->id) }}" method="post" class="d-inline" onsubmit="return confirm('Yakin Hapus Data ?')">

@@ -29,6 +29,10 @@
                             <label class="form-label">Bobot</label>
                             <input type="number" step="0.01" name="bobot" class="form-control" value="{{ $kriteria->bobot }}" required>
                         </div>
+                        <div class="mb-4 w-50">
+                            <label class="form-label">Flag</label>
+                            <input type="text" name="flag" class="form-control" value="{{ $kriteria->flag }}" autofocus required>
+                        </div>
                         <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
                     </form>
                 </div>
