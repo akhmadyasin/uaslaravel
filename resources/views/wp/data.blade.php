@@ -8,9 +8,9 @@
         </div>
     @endif
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="">
             <div class="card">
-                <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="card-header d-flex justify-content-between align-items-center" style="background-color: #bbdefb">
                     <span>{{ __('Perhitungan') }}</span>
                 </div>
                 <div class="card-body table-responsive">

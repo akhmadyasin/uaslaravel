@@ -8,9 +8,9 @@
         </div>
     @endif
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="">
             <div class="card">
-                <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="card-header d-flex justify-content-between align-items-center" style="background-color: #bbdefb">
                     <span>{{ __('Alternatif') }}</span>
                     <a href="{{ url('alternatif/add') }}" class="btn btn-success btn-sm">
                         <i class="fa fa-plus"></i> Add
