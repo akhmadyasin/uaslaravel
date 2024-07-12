@@ -2,12 +2,12 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="background-color: #bbdefb; padding: 20px;">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Home') }}</div>
+        <div class="card" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <div class="card-header" style="background-color: #64b5f6;">{{ __('Home') }}</div>
 
-                <div class="card-body">
+                <div class="card-body" style="background-color: #e3f2fd;">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}

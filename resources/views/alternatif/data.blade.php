@@ -9,7 +9,7 @@
     @endif
     <div class="row justify-content-center">
         <div class="">
-            <div class="card">
+            <div class="card" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                 <div class="card-header d-flex justify-content-between align-items-center" style="background-color: #bbdefb">
                     <span>{{ __('Alternatif') }}</span>
                     <a href="{{ url('alternatif/add') }}" class="btn btn-success btn-sm">
